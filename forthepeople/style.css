@@ -1,0 +1,273 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* Basic Styles */
+body {
+	background-color: #ffffff;
+	margin: 0;
+}
+img {
+    margin-bottom: 2px;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+	height: 55px;
+	width: 100%;
+	background: #513081;
+	font-size: 18pt;
+	font-family: 'Open Sans', sans-serif;
+	z-index:100;
+	text-align: center;
+	margin: 0;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: 55px;
+}
+nav li {
+	display: inline;
+	text-align: center;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 115px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+}
+nav li a:active{
+	background-color: #46008C;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #46008C;
+}
+nav a#pull {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	nav { 
+  		height: auto;
+		font-size: 16pt;
+		text-align: center;
+  	}
+	nav a {
+		color: #fff;
+		width: 85px;
+		text-align: center;
+		text-decoration: none;
+		
+	}
+	
+}
+
+/*Styles for screen 900px and lower*/
+@media only screen and (max-width : 960px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #523081;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('img/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 16px;
+	}
+}
+
+@media only screen and (max-width : 959px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: #523081;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('img/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 16px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 809px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: none;
+	}
+}
+#page {
+  overflow: hidden;
+}
+
+#support{
+    color: #fff;
+  position: relative;
+  background-size: 100px;
+}
+
+#support .inner {
+  padding-left: 100%;
+  margin-left: -100%;
+  padding-right: 100%;
+  margin-right: -100%;
+  background-color: #000;
+}
+#background{
+	background: #ffffff;
+	
+}
+#headerImage img {
+    margin-bottom: 2px;
+    max-width: 100%;
+    height: auto;
+}
+#aboutImage img {
+	margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+	float: left;
+}
+
+#thumImage h1,h2,h3,h4,h5,h6{
+   text-align: center;
+}
+#thumImage {
+   text-align: center;
+}
+#merchImage h1,h2,h3,h4,h5,h6{
+   text-align: center;
+}
+#locationlinks a {
+    color: #000000;
+	text-decoration: none;
+}
+#locationlinks a:hover {
+    color: #000000;
+	text-decoration: underline;
+}
+#thumImage img {
+    margin-bottom: 2px;
+    width: 100%;
+    height: auto;
+	text-align: center;
+}
+#signup {
+    margin-bottom: 2px;
+    width: auto;
+    height: auto;
+	text-align: center;
+}
+#footer{
+	color: #fff;
+    margin-bottom: 0px;
+	background: #523081;
+	font-size: 12pt;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+}
+#footer p{
+    margin: 3px;
+}
+#footer h2{
+	color: #ffffff;
+	border: 1px solid #523081;
+	background: #523081;
+	position: relative;
+	margin: 3px;
+}
+#footer img {
+    margin-bottom: 0px;
+    max-width: 100%;
+    height: auto;
+}
+#footer a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+#footer a:hover {
+    color: #FFFFFF;
+	text-decoration: underline;
+}
+#verse{
+	margin-left: 2em; 
+	margin-right: 2em;
+}
+#square ul{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.15em;
+	list-style-type: square;
+}
+ol.tumblr_posts{
+    list-style:square;
+}
+.video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.video iframe, .video object, .video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+ 
+.entry-content img, .entry-content iframe, .entry-content object, .entry-content embed {
+max-width: 100%;
+}
+
+
+
+

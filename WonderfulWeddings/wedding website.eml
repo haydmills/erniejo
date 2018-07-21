@@ -1,0 +1,100 @@
+Delivered-To: josephfipps@gmail.com
+Received: by 10.107.168.104 with SMTP id r101csp1242998ioe;
+        Mon, 22 Feb 2016 06:02:05 -0800 (PST)
+X-Received: by 10.107.7.147 with SMTP id g19mr27772516ioi.81.1456149725303;
+        Mon, 22 Feb 2016 06:02:05 -0800 (PST)
+Return-Path: <marlalipinski@yahoo.com>
+Received: from nm11-vm6.bullet.mail.ne1.yahoo.com (nm11-vm6.bullet.mail.ne1.yahoo.com. [98.138.91.104])
+        by mx.google.com with ESMTPS id ei10si33183985igc.57.2016.02.22.06.02.05
+        for <josephfipps@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 22 Feb 2016 06:02:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of marlalipinski@yahoo.com designates 98.138.91.104 as permitted sender) client-ip=98.138.91.104;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of marlalipinski@yahoo.com designates 98.138.91.104 as permitted sender) smtp.mailfrom=marlalipinski@yahoo.com;
+       dkim=pass header.i=@yahoo.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=yahoo.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1456149724; bh=6IEIoTdRoHVjP8tWUPBe8jUbzbxgWw++QsUKaZWI6tA=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=ebKoarnhX41/puXgVktepQgo18pkoOiUKlw7uOr3fASVS3zFUNqTAgYwNIN7YQ+8yVETPGuWP7Q0Ha/K3M3IuxFYl168/KJ/Dy1mvsJu+ZD9px6/ntxdbGnwempocRtSK2VzqGkQphW3ZXysSflmUH2bMZuQ7rUTU67Pk2Ity6MpWD/Erm0AxLG08RTZj9uiLxZgPLJwlm3ZtUjj2j6yMI6quway6XMWGWeTaE/OhrsHWVffMW+9eIqWGmJGusAlmxDacx1ODEpDCG1mI4yMGS4b+JCfiAFIcLA+Awyt6XtlEwtT8BSNPKYSG/3lcc1QtHd9skhAQwRKU8muDGDqmQ==
+Received: from [98.138.226.178] by nm11.bullet.mail.ne1.yahoo.com with NNFMP; 22 Feb 2016 14:02:04 -0000
+Received: from [98.138.89.174] by tm13.bullet.mail.ne1.yahoo.com with NNFMP; 22 Feb 2016 14:02:04 -0000
+Received: from [127.0.0.1] by omp1030.mail.ne1.yahoo.com with NNFMP; 22 Feb 2016 14:02:04 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 765348.95324.bm@omp1030.mail.ne1.yahoo.com
+X-YMail-OSG: PmcyHJYVM1nSRb34wquvF4ITDi6ztA5W0ASzQnLg1gyV7lrL3nalF_GMmGS8AGv
+ O77nUbCjuqf2IsINB0jSoPOESZW3T7hxYXRvghBzv4eyDsn8IJk3nglKPUyuKI0b6l4PsWXajjpu
+ BBeitCyTRCEbPpTLr3yEGxQjHgR.Rhp4lhad8FsTI95roX3stWsDbHNb7zypVbtrN9kiHmkwuer0
+ VYpPDvo3QoarcTiDnSCfCGp9Af0H4asAu7G6Q.UUNgIyUQrykqXdLnaig0rQV_9iGBPdyVelmJeh
+ 1LAuoCTb0WYjYCvW2.mT17JZJ.U5_CA9e0sJeMOTboocnNkW2VAkmj0YdlJ9BJ7A25f2hwQ7gSyf
+ xkDsSa6Puh70LX3YS_n5rQDqwrEzBzoAfzdTC311XePk6QwOIfqSQNgiaVbq8KPhMDGqQghpleUn
+ VYB5pKp37fLdvkDoRgpuaAIk1KkC7gq2va5AbhPBRttRMptES8hzckCc9EAly0HWMYykU0AXD2Bp
+ YgProcq0zr5DJP4o-
+Received: by 98.138.101.163; Mon, 22 Feb 2016 14:02:04 +0000 
+Date: Mon, 22 Feb 2016 13:58:08 +0000 (UTC)
+From: Marla Lipinski <marlalipinski@yahoo.com>
+Reply-To: Marla Lipinski <marlalipinski@yahoo.com>
+To: "josephfipps@gmail.com" <josephfipps@gmail.com>
+Message-ID: <492475439.782174.1456149488658.JavaMail.yahoo@mail.yahoo.com>
+Subject: wedding website
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_782173_92540949.1456149488652"
+References: <492475439.782174.1456149488658.JavaMail.yahoo.ref@mail.yahoo.com>
+Content-Length: 4528
+
+------=_Part_782173_92540949.1456149488652
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+This page is for my Package Services:Full Service Package- Unlimited phone calls, emails and "one on one" meetings (upon availability)
+-Customized theme and design for the wedding
+-Assistance with the site tours, selecting and booking of venues:VENDORS- We will schedule appointments and accompany clients up to three meetings per vendor I (if needed)---Caterer---Florists---Baker---Musicians---Rental Facilities---Photographer---Videographer---Transportation---Wedding Attire---Officiate
+-Develop a customized budget-Rehearsal and wedding day coordination-Monthly meeting to discuss status of your event-Review and confirm contracts with vendors-Clean up and package wedding items for bride to take at the end of the night
+Day of Wedding-One walk through at the ceremony/ reception site-Unlimited phone calls, emails and "one on one" meetings-Decorate ceremony and reception site-Coordinate wedding rehearsal-Confirmation of all vendors
+Consultation Day-Unlimited phone calls, emails and "one on one" meetings-Develop customized budget-Review floor plan
+------=_Part_782173_92540949.1456149488652
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, =
+sans-serif;font-size:14px"><div id=3D"yui_3_16_0_1_1456147194534_14836">Thi=
+s page is for my Package Services:</div><div id=3D"yui_3_16_0_1_14561471945=
+34_14836">Full Service Package</div><div id=3D"yui_3_16_0_1_1456147194534_1=
+4836">- Unlimited phone calls, emails and "one on one" meetings (upon avail=
+ability)</div><div id=3D"yui_3_16_0_1_1456147194534_14836"><br></div><div i=
+d=3D"yui_3_16_0_1_1456147194534_14836">-Customized theme and design for the=
+ wedding</div><div id=3D"yui_3_16_0_1_1456147194534_14836"><br></div><div i=
+d=3D"yui_3_16_0_1_1456147194534_14836">-Assistance with the site tours, sel=
+ecting and booking of venues:</div><div id=3D"yui_3_16_0_1_1456147194534_14=
+836">VENDORS- We will schedule appointments and accompany clients up to thr=
+ee meetings per vendor I (if needed)</div><div id=3D"yui_3_16_0_1_145614719=
+4534_14836">---Caterer</div><div id=3D"yui_3_16_0_1_1456147194534_14836">--=
+-Florists</div><div id=3D"yui_3_16_0_1_1456147194534_14836">---Baker</div><=
+div id=3D"yui_3_16_0_1_1456147194534_14836">---Musicians</div><div id=3D"yu=
+i_3_16_0_1_1456147194534_14836">---Rental Facilities</div><div id=3D"yui_3_=
+16_0_1_1456147194534_14836">---Photographer</div><div id=3D"yui_3_16_0_1_14=
+56147194534_14836">---Videographer</div><div id=3D"yui_3_16_0_1_14561471945=
+34_14836">---Transportation</div><div id=3D"yui_3_16_0_1_1456147194534_1483=
+6">---Wedding Attire</div><div id=3D"yui_3_16_0_1_1456147194534_14836">---O=
+fficiate</div><div id=3D"yui_3_16_0_1_1456147194534_14836"><br></div><div i=
+d=3D"yui_3_16_0_1_1456147194534_14836">-Develop a customized budget</div><d=
+iv id=3D"yui_3_16_0_1_1456147194534_14836">-Rehearsal and wedding day coord=
+ination</div><div id=3D"yui_3_16_0_1_1456147194534_14836">-Monthly meeting =
+to discuss status of your event</div><div id=3D"yui_3_16_0_1_1456147194534_=
+14836">-Review and confirm contracts with vendors</div><div id=3D"yui_3_16_=
+0_1_1456147194534_14836">-Clean up and package wedding items for bride to t=
+ake at the end of the night</div><div id=3D"yui_3_16_0_1_1456147194534_1483=
+6"><br></div><div id=3D"yui_3_16_0_1_1456147194534_14836">Day of Wedding</d=
+iv><div id=3D"yui_3_16_0_1_1456147194534_14836">-One walk through at the ce=
+remony/ reception site</div><div id=3D"yui_3_16_0_1_1456147194534_14836">-U=
+nlimited phone calls, emails and "one on one" meetings</div><div id=3D"yui_=
+3_16_0_1_1456147194534_14836">-Decorate ceremony and reception site</div><d=
+iv id=3D"yui_3_16_0_1_1456147194534_14836">-Coordinate wedding rehearsal</d=
+iv><div id=3D"yui_3_16_0_1_1456147194534_14836">-Confirmation of all vendor=
+s</div><div id=3D"yui_3_16_0_1_1456147194534_14836"><br></div><div id=3D"yu=
+i_3_16_0_1_1456147194534_14836">Consultation Day</div><div id=3D"yui_3_16_0=
+_1_1456147194534_14836">-Unlimited phone calls, emails and "one on one" mee=
+tings</div><div id=3D"yui_3_16_0_1_1456147194534_14836">-Develop customized=
+ budget</div><div id=3D"yui_3_16_0_1_1456147194534_14836">-Review floor pla=
+n</div></div></body></html>
+------=_Part_782173_92540949.1456149488652--

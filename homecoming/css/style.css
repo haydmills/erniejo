@@ -1,0 +1,355 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic);
+
+/* START - General CSS */
+body {
+  background: #FAFAFA;
+}
+/* END - General CSS */
+
+/* START - Typography */
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+ul,ol,li{
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.4em;
+}
+@media (min-width: 960px){
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+/* END - Typography */
+
+/* START - Links */
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+header h1 a {
+  color: #fff;
+  border-bottom: none;
+}
+.link-dark{
+	color: #444;
+}
+/* END - Links */
+
+/* START - Header, Section, Images */
+header p {
+  margin: 2em 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section{
+  padding: 30px 0;
+}
+/* END - Header, Section, Images */
+.bodytype p{
+  color: #444;
+}
+.bodytype li{
+  color: #444;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+.bodytype h2, h3{
+  color: #222;
+}
+.bodytype a{
+  color: #222;
+  text-decoration: underline;
+}
+.dark-text{
+  color: #222;
+}
+.logo{
+	position: fixed;
+    top: 6px;
+    left: 25px;
+	z-index: 10;
+}
+
+/* START - Responsive Nav Bar */
+.menuIcon {
+  background: #001E6F;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  padding: .75em;
+  font-size: 1.5em;
+  text-align: right;
+}
+.nav {
+  background: #001E6F;
+  margin: 0;
+  padding: 0;
+	height: 80px;
+  text-align: center;
+  display: none;
+  z-index: 2;
+}
+.nav li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  list-style: none;
+	line-height: 40px;
+  color: white;
+  letter-spacing: .1em;
+  padding: 1em;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.selected {
+  background: #06919a;
+}
+.list {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+.logo{
+	display: none;
+}
+section.mod.lax-1,
+section.mod.lax-2,
+section.mod.lax-3,
+section.mod.lax-4,
+section.mod.lax-5,
+section.mod.lax-6 {
+  background: #001E6F;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .nav {
+    font-size: 28px;
+    background: #001E6F;
+	font-family: 'Lato', sans-serif;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    display: block;
+  }
+  .nav li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: .1em;
+    padding: 1em;
+  }
+  .menuIcon {
+    display: none;
+  }
+}
+/* END- Responsive Nav Bar */
+
+/* START - Full-width horizontal section help */
+body > header,
+body > section,
+body > footer {
+  display: block;
+  width: 100%;
+  clear: both;
+  float: left;
+}
+/* END - Full-width horizontal section help */
+
+/* START - Buttons */
+.button {
+  border-radius: 2px;
+  background:rgba(0,0,0,0);
+  border: 3px solid #FCFCFC;
+  padding: 8px 16px;
+  color: #FCFCFC;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-top:0px;
+}
+.button:hover, .button:focus {
+	background: #FCFCFC;
+	color: #001E6F;
+}
+.button-blue {
+  border-radius: 2px;
+  background:rgba(0,0,0,0);
+  border: 3px solid #FCFCFC;
+  padding: 8px 16px;
+  color: #FCFCFC;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-top:0px;
+}
+.button-blue:hover, .button-blue:focus {
+	background: #FCFCFC;
+	color: #3E6B7E;
+}
+/* END - Buttons */
+
+.center-this {
+    text-align: center !important;
+  }
+.center-this-blk {
+    text-align: center !important;
+	color: #222 !important;;
+  }
+ .nopad{
+	margin-top: 0px;
+ }
+
+/* START - Footer */
+footer{
+	background: #001E6F;
+	padding: 30px 0;
+}
+footer p {
+  margin: 0;
+  color: #FAFAFA;
+}
+/* END - Footer */
+
+/* Parallax CSS */
+section.mod.lax {
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.mod.lax-1 {
+  background-image: url('img/ya.jpg');
+}
+section.mod.lax-2 {
+  background-image: url("img/centerbuildingheader.jpg");
+}
+section.mod.lax-3 {
+  background-image: url('img/staffheader.jpg');
+}
+section.mod.lax-4 {
+  background-image: url('img/communityheader.jpg');
+}
+section.mod.lax-5 {
+  background-image: url('img/housing.jpg');
+}
+section.mod.lax-6 {
+  background-image: url('img/contactheader.jpg');
+}
+
+/* Custom CSS for Willkie website */
+.color1{
+	background: #001E6F;
+	color: #FAFAFA;
+}
+.color2 {
+	background: #00FF38;
+	color: #111;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.color3{
+	background-image: url('img/catz.jpg');
+	color: #FAFAFA;
+}
+.color4{
+	background: #345A6B;
+	color: #FAFAFA;
+}
+.color4 p {
+  margin: 0;
+}
+.color5{
+	background: #001E6F
+}
+.white{
+	color: #FCFCFC;
+}
+.social-bar {
+	padding-top: 22px;
+	text-align: center;
+}
+.social-bar h3{
+	line-height: 0px;
+}
+.social-bar a{
+	font-size: 1.1em;
+}
+.social-bar img{
+	float: left;
+}
+.box{
+  border-radius: 2px;
+  background:rgba(0,0,0,0);
+  border: 3px solid #FCFCFC;
+  padding: 8px 16px;
+  color: #FCFCFC;
+}
+
+/*
+    INSTAGRAM WALL
+*/
+
+.insta ul {
+	margin: 0;
+	padding: 10px;
+}
+
+.insta ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 25%;
+}
+
+.insta ul li img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*
+    Responsive Video
+*/
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.center{text-align: center;}

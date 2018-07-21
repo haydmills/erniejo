@@ -1,0 +1,19 @@
+2018-04-22T08:01:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_Stripe::display_admin_settings_webhook_description() in /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/stripe-settings.php:33
+Stack trace:
+#0 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php(234): require()
+#1 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce-gateway-stripe/includes/class-wc-gateway-stripe.php(139): WC_Gateway_Stripe->init_form_fields()
+#2 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(105): WC_Gateway_Stripe->__construct()
+#3 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#4 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gate
+
+2018-05-30T23:26:48+00:00 CRITICAL Uncaught Error: Class 'WC_Cart_Fees' not found in /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce/includes/class-wc-cart.php:109
+Stack trace:
+#0 /home2/bymillsc/public_html/erniejo/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(476): WC_Cart->__construct()
+#1 /home2/bymillsc/public_html/erniejo/wordpress/wp-includes/class-wp-hook.php(286): WooCommerce->init('')
+#2 /home2/bymillsc/public_html/erniejo/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/bymillsc/public_html/erniejo/wordpress/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home2/bymillsc/public_html/erniejo/wordpress/wp-settings.php(450): do_action('init')
+#5 /home2/bymillsc/public_html/erniejo/wordpress/wp-config.php(89): require_once('/home2/bymillsc...')
+#6 /home2/bymillsc/public_html/erniejo/wordpress/wp-load.php(37): require_once('/home2/bymillsc...')
+#7 /home2/bymillsc/public_html/erniejo/wordpress/xmlrpc.php(29): include('/home2/bymills
+
